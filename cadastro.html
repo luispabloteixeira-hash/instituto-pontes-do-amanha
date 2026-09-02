@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadastro de voluntários e doadores do Instituto Pontes do Amanhã.">
+  <title>Participe | Instituto Pontes do Amanhã</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html">Pontes do Amanhã</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button><nav aria-label="Navegação principal"><ul id="menu" class="menu"><li><a href="index.html">Início</a></li><li><a href="projetos.html">Projetos</a></li><li><a aria-current="page" href="cadastro.html">Participe</a></li></ul></nav></div></header>
+  <main id="conteudo" class="section container narrow">
+    <header class="page-header"><p class="eyebrow">Faça parte</p><h1>Cadastro de colaboradores</h1><p>Os campos marcados com * são obrigatórios. Este formulário é demonstrativo e não envia dados a um servidor.</p></header>
+    <form id="cadastro" novalidate>
+      <fieldset><legend>Dados pessoais</legend>
+        <div class="form-grid"><label>Nome completo *<input name="nome" autocomplete="name" minlength="3" required></label><label>E-mail *<input type="email" name="email" autocomplete="email" required></label><label>CPF *<input name="cpf" inputmode="numeric" maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required></label><label>Telefone *<input type="tel" name="telefone" autocomplete="tel" maxlength="15" pattern="\(\d{2}\) \d{4,5}-\d{4}" placeholder="(00) 00000-0000" required></label></div>
+      </fieldset>
+      <fieldset><legend>Endereço</legend>
+        <div class="form-grid"><label>CEP *<input name="cep" inputmode="numeric" maxlength="9" pattern="\d{5}-\d{3}" placeholder="00000-000" required></label><label>Cidade *<input name="cidade" autocomplete="address-level2" required></label><label>Estado *<select name="estado" autocomplete="address-level1" required><option value="">Selecione</option><option>SP</option><option>RJ</option><option>MG</option><option>PR</option><option>Outro</option></select></label></div>
+      </fieldset>
+      <fieldset><legend>Forma de participação</legend>
+        <label>Como deseja colaborar? *<select name="participacao" required><option value="">Selecione</option><option value="voluntariado">Voluntariado</option><option value="doacao">Doação</option><option value="parceria">Parceria institucional</option></select></label>
+        <label>Área de interesse<textarea name="interesse" rows="4" maxlength="500" placeholder="Conte brevemente como gostaria de participar"></textarea></label>
+        <label class="check"><input type="checkbox" name="consentimento" required> Concordo com o uso destes dados exclusivamente para contato sobre a iniciativa. *</label>
+      </fieldset>
+      <p id="form-status" class="status" role="status" aria-live="polite"></p>
+      <button class="button" type="submit">Validar cadastro</button>
+    </form>
+  </main>
+  <footer><div class="container"><p>© 2026 Instituto Pontes do Amanhã • Projeto acadêmico fictício</p></div></footer>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
