@@ -13,7 +13,7 @@ Projeto acadêmico fictício de uma plataforma web para uma ONG, organizado para
 
 Abra `index.html` em um navegador. Não há dependências externas nem coleta real de dados.
 
-Versão publicada para revisão: https://instituto-pontes-do-amanha.luispabloteixeira.chatgpt.site
+Versão publicada: https://luispabloteixeira-hash.github.io/instituto-pontes-do-amanha/
 
 ## Validação sugerida
 
