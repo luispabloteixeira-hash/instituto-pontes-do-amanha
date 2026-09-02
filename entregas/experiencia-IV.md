@@ -18,7 +18,9 @@ A solução não utiliza bibliotecas externas, imagens pesadas ou fontes remotas
 
 ## Deploy
 
-O projeto foi preparado para publicação estática pelo GitHub Pages. O endereço público será registrado neste relatório após a ativação da hospedagem.
+O projeto foi publicado de forma estática pelo GitHub Pages no endereço:
+
+https://luispabloteixeira-hash.github.io/instituto-pontes-do-amanha/
 
 Após a revisão, o endereço poderá ser utilizado como evidência de funcionamento. As capturas das páginas e os resultados das auditorias de HTML, acessibilidade e desempenho devem acompanhar a entrega quando esses anexos forem exigidos no formulário acadêmico.
 
